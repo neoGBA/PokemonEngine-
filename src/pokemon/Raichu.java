@@ -54,6 +54,11 @@ public class Raichu {
 		
 	}
 	
+	public int getAttackStat() {
+		int stat = attack;
+		return stat;
+	}
+	
 	public String getFilePath() {
 		String path = filePath;
 		return filePath;
