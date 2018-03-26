@@ -1,12 +1,17 @@
 package controller;
 
+import pokemon.*;
+
 public class Battle {
 	
-	public Battle(Object obj, Object obj2) {
+	public Battle() {
 		startBattle();
 	}
 	
 	public void startBattle() {
+		Raichu raichu = new Raichu(30);
+		Pidgeotto pidgeotto = new Pidgeotto(35);
+		
 		
 	}
 	
